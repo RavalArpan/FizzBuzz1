@@ -9,4 +9,11 @@ public class FizzBuzzTest {
         assertEquals("1",Fizzbuzz.fizzbuzz(1));
     }
 
+    @Test
+    public void testFizzbuzzForMultipleOfThree(){
+        assertEquals("Fizz",Fizzbuzz.fizzbuzz(3));
+        assertEquals("Fizz",Fizzbuzz.fizzbuzz(6));
+        assertEquals("Fizz",Fizzbuzz.fizzbuzz(9));
+    }
+
 }
