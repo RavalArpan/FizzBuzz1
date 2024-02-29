@@ -14,8 +14,8 @@ public class Fizzbuzz {
             return "Buzz";
         } else if (n%3 == 0) {
             return "Fizz";
+        }else {
+            return Integer.toString(n);
         }
-
-        return Integer.toString(n);
     }
 }
